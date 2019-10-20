@@ -1,0 +1,21 @@
+{% extends'base.html.twig' %}
+
+{% block title %}
+   IT Products
+{% endblock %}
+
+{% block content %}
+    <h1> Favorites Products<h1>
+    <div class="row">
+        {% for product in products %}
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">{{ product }}</h3>
+                        <h5 class="card-text">buy me</h5>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

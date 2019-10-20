@@ -1,0 +1,13 @@
+{
+    "name": "kezia/twig",
+    "description": "quete twig",
+    "authors": [
+        {
+            "name": "clemcx",
+            "email": "clemencecaux@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.12"
+    }
+}
